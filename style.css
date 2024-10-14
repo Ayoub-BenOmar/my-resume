@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-style: 'Source Sans Pro', sans-serif;
   line-height: 1,5;
   background: #eddad4;
   color: black;
@@ -32,15 +32,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-.container h{
-  max-width: 960px;
-  margin: 40px auto;
-  padding: 32px;
-  background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 
 .container {
   max-width: 960px;
@@ -78,27 +69,30 @@ img.avatar {
 .my-name {
   font-size: 48px;
   line-height: 1;
+
 }
 
 .my-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
-  color: #236FB2;
+  color: #323232;
 }
 
 .links {
   display: flex;
+  font-size: 12px;
   margin: 10px 0 20px 0;
 }
 
 .link-item {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   flex: 1;
 }
 
 .link-item svg {
-  margin-right: 6px;
+  margin-right: 5px;
 }
 
 /***********************************
